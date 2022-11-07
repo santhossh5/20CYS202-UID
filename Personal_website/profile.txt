@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon"
+        href="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw">
+    <title> DAY 01-UID </title>
+    <meta charset="UTF-18">
+</head>
+
+<body style="background-color:rgb(240, 207, 246); ">
+    <h3 style="text-align:center">
+        This is <b style="color:rgb(12, 159, 68)">SANTHOSSH</b> &#128526; from Karur <br>
+        <u><abbr title="Bachelor of technology">Btech</abbr> Cybersecurity <abbr title="department">dept.</abbr>
+        </u><br>
+    </h3>
+    <p>
+	studying in Amrita School of engineering<br> schooling-st.Jude's public school
+    </p>
+    <p>
+	DOB - 5<sup>th</sup>April 2004<br>
+        hobbies
+    <ul>
+        <li><i style="font-family:courier">Football</i>&#9917;</li>
+        <li>anime</li>
+        <li>eating</li>
+        <li>sleeping</li>
+    </ul><br>
+    food &#127858;<ol>
+        <li>chicken&#127831;</li>
+        <li> biriyani </li>
+        <li>tandoori</li>
+    </ol>
+    <a href="https://www.instagram.com" target="_blank">click to view my insta profile</a>
+    <br><br><br><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRY2YhMsJluE4eJFwPBIZu9k12vyBc7mRrnw&usqp=CAU"
+        alt="bug"> </p>
+</body>
+
+<body>
+    <small> this is a <mark>small</mark> <br>text </small>
+</body>
+<!--comments in here-->
+
+</html>
