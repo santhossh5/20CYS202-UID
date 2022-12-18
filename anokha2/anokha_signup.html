@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title> signup_anokha </title>
+    <script src="anokha_signup.js"></script>
+</head>
+<style>
+    body {
+        background-image: url('https://img.freepik.com/premium-photo/violet-smoke-background_172251-536.jpg?w=826');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    a{
+        color: rgb(211, 239, 71);
+    }
+</style>
+
+<body>
+    <div style="text-align: center;padding: 20px;background-color: transparent;font-size: xx-large; color:azure">
+        Anokha Registration Form
+    </div>
+    <br><br>
+    <div
+        style="background-color:rgba(5, 4, 5, 0.455); color:rgb(255, 255, 255); border-radius: 10px;
+         margin-left: 30%; margin-right: 30%;box-shadow: 5px 5px 5px 5px rgba(128, 86, 152, 0.335);">
+        <div style="margin-left: 25%;">
+            <br>
+            <h1 style="color: rgb(31, 191, 219);"> &ensp;Register here <span style="color: rgb(236, 83, 205);">!</span> </h1>
+            <form name="anokha" onsubmit="return myFunc();">
+                <label for="name"> Name: </label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email"> Email id </label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label> Gender: </label>
+                <input type="radio" id="gender" name="gender" value="Male">
+                <label> Male&emsp;</label>
+                <input type="radio" id="gender" name="gender" value="Female">
+                <label> Female&emsp;</label>
+                <input type="radio" id="gender" name="gender" value="Other">
+                <label> Others </label><br><br>
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                <label for="year">Choose studying year:</label>
+                <select id="year" required>
+                    <option value="empty"> --select--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="masters">Mtech</option>
+                    <option value="pg">PG</option>
+                    <option value="other">Others</option>
+                </select><br><br>
+                <label for="pswd"> Password </label>
+                <input type="password" id="pswd" name="pswd" placeholder="Enter password" value="" required><br><br>
+                <label for="pass"> Confirm Password </label>
+                <input type="password" id="pass" name="pass" placeholder="Re-enter password" value="" required><br><br>
+                <label for="num"> Ph no: </label>
+                <input type="tel" id="num" name="num" value="" required><br><br>
+                <input type="checkbox" id="chk" name="chk" value="" required>
+                <label for="chk"> Accept terms and conditions </label><br><br>
+                &emsp;&emsp;&emsp;&emsp;
+                <input type="submit" value="Submit">&emsp;&emsp;&emsp;
+                <a href="anokha_signin.html">Already have an account?</a><br><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+<!--
+
+-->
