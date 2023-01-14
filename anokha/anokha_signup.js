@@ -5,7 +5,7 @@ function myFunc() {
     var dob = document.anokha.dob.value;
     var year = document.anokha.year.value;
     var pass = document.anokha.pswd.value;
-    var cpass = document.anokha.pass.value;
+    var cPass = document.anokha.pass.value;
     var num = document.anokha.num.value;
     var chk = document.anokha.chk.value;
 
@@ -33,7 +33,7 @@ function myFunc() {
         return false;
     }
 
-    else if (pass != cpass) {
+    else if (pass != cPass) {
         alert('Enter correct confirm password');
         return false;
     }
